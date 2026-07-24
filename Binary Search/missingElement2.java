@@ -1,3 +1,5 @@
+// Case 1: Missing Number in an Sorted Array
+
 public class missingElement2 {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,6,7,8};
