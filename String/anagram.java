@@ -6,7 +6,8 @@ class anagram {
         int [] count=new int[26];
         
         for(char c:s1.toCharArray()){
-            count[c-'a']++;
+            count[c-'a']++;    
+            //here c is variable that holds the character and then it calculates ascii value and 'a' represent the ascii value so subract gives integer vallue
         }
         
         for(char c:s2.toCharArray()){
