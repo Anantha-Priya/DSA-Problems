@@ -6,9 +6,7 @@ class killingSpree{
         while(l<=h){
             long mid=l+(h-l)/2;
             
-            long sumOfSquares=0;
-            
-            sumOfSquares=((mid*(mid+1)*((2*mid)+1))/6);
+            long sumOfSquares=((mid*(mid+1)*((2*mid)+1))/6);
             
             if(sumOfSquares<=p){
                 ans=mid;
