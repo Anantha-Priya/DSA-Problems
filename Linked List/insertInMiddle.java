@@ -1,0 +1,22 @@
+public class insertInMiddle {
+    public Node insertInMiddle(Node head, int x) {
+        Node newNode=new Node(x);
+        
+        //Empty List
+        if (head==null){
+            return newNode;
+        }
+        
+        Node slow=head;
+        Node fast=head.next;
+        
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        newNode.next=slow.next;
+        slow.next=newNode;
+        
+        return head;
+    }
+}
