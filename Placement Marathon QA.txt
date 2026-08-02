@@ -1,0 +1,127 @@
+PLACEMENT MARATHON 1:
+
+1. Write a program which takes the following input and prints them one by one. 
+           1. An whole number 
+           2. A letter 
+           3. A number with fractional part 
+           4. A word
+2. Write a program to print N numbers starting from 2. Take N as input and print from 2 to N;
+3.Write a program which takes a value N and prints the sum of N natural numbers. Natural numbers start from 1.
+
+PLACEMENT MARATHON 2:
+
+1. New Pattern (input: 3)
+    Output:   123
+              456
+              789
+2.Diamond Pattern (i/p: 5)
+       *    
+      ***   
+     *****  
+    ******* 
+   *********
+   *********
+    ******* 
+     *****  
+      ***   
+       *
+3. Print Number Pattern (i/p: 5)
+    12345
+    22345
+    33345
+    44445
+    55555
+
+PLACEMENT MARATHON 3:
+
+1. You are given two integers n1 and n2. You need find the Lowest Common Multiple (LCM) of the two given numbers. Return the LCM of the two numbers.
+
+    The Lowest Common Multiple (LCM) of two integers is the lowest positive integer that is divisible by both the integers.
+
+    Input: n1 = 4, n2 = 6  | Output: 12
+
+2. Given a number, you should find the sum of its digits.
+    Input: n = 5436   | Output: 18
+
+3. Find prime numbers till N. 1 is neither prime nor composite so shouldn't be considered as prime.
+   Note: Prime No. is a number which is divisible by one or the number itself
+   Input: n = 7 | Output: 4
+
+PLACEMENT MARATHON 4:
+
+1. Given an array, print the sum or even values in the array.
+    Input: n = 5 arr = [2, 3, 5, 6, 8]  |  Output: 16
+
+2. Given an array arr. Your task is to find the elements whose value is equal to that of its index value.
+    Input: n = 6 arr = [3, 1, 2, 35,39, 5] | Output: 1 2 5
+
+3. Given two arrays (Get first input for one array and then again get for the other array), 
+   find if the product of two array are same. If same, print 1 else print 0.
+    Input: arr1 = [4, 1, 3, 9, 3] arr2 = [2, 9, 4, 4, 2]  | Output: 0
+
+4. The task is to divide an array into two halves (left and right) containing n/2 elements each and do the sum of the each. half and then multiply both the sum. 
+   In case of odd number of elements, include the odd one in the second half.
+
+   eg: First half sum = 1 + 2 = 3, Second half sum = 3+ 4 = 7, So now to multiply them = 3 * 7 = 21
+
+   Input: n=4, arr[ ] = {1, 2, 3, 4}   | Output: 21
+
+   eg: First half sum = 5 + 3 = 8 Second half sum = 9 + 12 + 3 = 24 So now to multiply them = 8 * 24 = 192
+   Input: n=5, arr[ ] = {5,3,9,12,3}   | Output: 192
+
+PLACEMENT MARATHON 5:
+
+1. You are given n numbers in sorted order, you need to find the first and last occurrence of the number x and print them. 
+   If occurrence of a number is not found, then print -1.
+
+   Input : n = 8 arr ={2,3,4,4,4,5,5,6} x = 4   | Ouput: 2 4
+
+2. You are given an array arr of size n - 1 that contains distinct integers in the range from 1 to n, in sorted order. 
+   Since there are only n-1 numbers in array, there is one number missing from 1 to n. You need to find the number.
+    Input: n = 5 arr[] = [1, 2, 3, 5] | Ouptut: 4
+
+3. Given a sorted array and a number target, you need to find the number of occurrences of target in arr[].
+    Input: n = 7 arr[] = [1, 1, 2, 2, 2, 2, 3] target = 2  | output: 4
+
+4. Given an array arr consisting of only 0's and 1's in random order. Modify the array to segregate 0s onto the left side and 1s onto the right side of the array.
+    Input: n = 5 arr[] = [0, 0, 1, 1, 0]     | Output: 0 0 0 1 1
+
+PLACEMENT MARATHON 6:
+
+1. Given a singly linked list of size N containing only English Alphabets. Your task is to complete the function, 
+   that arranges the consonants and vowel nodes of the list it in such a way that all the vowels nodes come before the consonants while maintaining the order of their arrival.
+    Input: N=6    a e g h i m    | Ouput: a e i g h m
+
+2. Given an array arr[] where no two adjacent elements are same, find the index of a peak element. An element is considered to be a peak if it is greater than its adjacent elements (if they exist). 
+   If there are multiple peak elements, return index of any one of them. Note: Consider the element before the first element and the element after the last element to be negative infinity.
+    Input: n = 7 arr = [1, 2, 4, 5, 7, 8, 3]  |  Ouput: 8
+
+3. Given an array arr of integers, find all the elements that occur more than once in the array. If no element repeats, return an empty array.
+    Input: n = 5 arr[] = [2, 3, 1, 2, 3]  |  Ouput:  2 3  
+
+PLACEMENT MARATHON 7:
+
+1. The task is to find the Nth node from the end of the linked list. If n is beyond the total number of nodes then return -1.
+    Input: N = 9, K = 2 ,LinkedList: 1->2->3->4->5->6->7->8->9  | Ouput: 8
+
+2. You are given two unsorted arrays a[] and b[]. Both arrays may contain duplicate elements. For each element in a[], your task is to count how many elements in b[] are less than or equal to that element. n is the size of a array and m is the size of b array.
+    Input: n = 6 a[] = [1, 2, 3, 4, 7, 9], m = 6 b = [0, 1, 2, 1, 1, 4]   | Ouput: 4, 5, 5, 6, 6, 6
+
+PLACEMENT MARATHON 8:
+
+1. The task is to find the Nth node from the end of the linked list. If n is beyond the total number of nodes then return -1.
+     Input: N = 9, K = 2 ,LinkedList: 1->2->3->4->5->6->7->8->9  | Ouput: 8
+
+2. Given a singly linked list of size N of integers. The task is to check if the given linked list is palindrome or not. If the list is palindrome then print 1, else print 0.
+    Input: N = 3 linkedlist = {1,2,1}  | Output: 1
+
+3. Given the head of two sorted linked lists consisting of nodes respectively. The task is to merge both lists and return the head of the sorted merged list. Note: Create the linked lists and then proceed with sorting.
+    Input: head1 = 5 ,10 ,15, 40 head2 = 2, 3, 20 |  Output:  2 3 5 10 15 20 40
+
+MEGA CONTEST 1:
+
+1. Given a string s of lowercase alphabets. The task is to find the maximum occurring character in the string s.
+    input: s = "geeksforgeeks"  |  Output : e
+
+MEGA CONTEST 2:
+
