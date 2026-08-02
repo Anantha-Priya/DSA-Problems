@@ -124,4 +124,5 @@ MEGA CONTEST 1:
     input: s = "geeksforgeeks"  |  Output : e
 
 MEGA CONTEST 2:
+   Same questions which is asked in the Placement marathon
 
